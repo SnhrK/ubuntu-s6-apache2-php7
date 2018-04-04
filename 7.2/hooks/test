@@ -1,5 +1,7 @@
 #!/bin/bash
 
+pwd
+cd ../
 docker-compose -f ./7.2/docker-compose.test.yml up -d
 ./dockerize -wait http://127.0.0.1:8080 -timeout 30
 curl -f --retry 10 --retry-delay 3 http://127.0.0.1:8080

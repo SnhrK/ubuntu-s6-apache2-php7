@@ -6,7 +6,7 @@ services:
     build:
       context: ../
       dockerfile: 7.2/Dockerfile
-    port:
+    ports:
       - 8080:80
-    voulme:
+    volumes:
       - ./test/code:/var/www/html
