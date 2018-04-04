@@ -3,9 +3,7 @@ version: '3'
 
 services:
   sut:
-    build:
-      context: ../
-      dockerfile: 7.2/Dockerfile
+    image: REPLACE_IMAGENAME
     ports:
       - 8080:80
     volumes:
