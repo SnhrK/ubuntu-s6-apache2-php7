@@ -1,0 +1,6 @@
+*.*
+!fix-attrs.d
+!cont-init.d
+!services.d
+!cont-finish.d
+!scripts
