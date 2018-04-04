@@ -1,1 +1,1 @@
-docker build -f $DOCKERFILE_PATH -t $IMAGE_NAME:7.2 . --squash
+docker build -f $DOCKERFILE_PATH -t $IMAGE_NAME:$DOCKER_TAG . --squash
