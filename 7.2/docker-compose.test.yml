@@ -9,4 +9,4 @@ services:
     port:
       - 8080:80
     voulme:
-      - ./test/code:/var/www/html
+      - ../test/code:/var/www/html
