@@ -1,0 +1,5 @@
+#!/bin/bash
+
+docker-compose -f ./7.2/docker-compose.test.yml up -d
+
+curl -f --retry 10 --retry-delay 3 127.0.0.1:8080

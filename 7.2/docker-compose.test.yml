@@ -4,5 +4,7 @@ version: '3'
 services:
   sut:
     build:
-      context: .
+      context: ../
       dockerfile: 7.2/Dockerfile
+    port:
+      - 8080:80
