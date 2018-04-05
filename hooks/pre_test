@@ -1,0 +1,5 @@
+#!/bin/bash
+set -eo pipefail
+
+cd /src/$BUILD_CODE
+git clone https://github.com/mobingilabs/default-site-php -b dir_public test/code
