@@ -2,10 +2,12 @@
 
 run php server under Apache httpd + mod_php and crond.
 
-This image built based on [mobingidocker/dockerimage-boilerplate](https://github.com/mobingidocker/dockerimage-boilerplate).
-
 - codeDir: /var/www/html (by default. you can change to /var/www/html/public by setting.)
 - DocumentRoot: /var/www/html/public
+
+Images are published at [`mobingi/ubuntu-s6-apache2-php7:tagname`](https://cloud.docker.com/swarm/mobingi/repository/docker/mobingi/ubuntu-s6-apache2-php7/general).
+
+> This image built based on [mobingidocker/dockerimage-boilerplate](https://github.com/mobingidocker/dockerimage-boilerplate).
 
 
 ```
