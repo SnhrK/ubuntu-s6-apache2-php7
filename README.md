@@ -4,7 +4,7 @@ run php server under Apache httpd + mod_php and crond.
 
 This image built based on [mobingidocker/dockerimage-boilerplate](https://github.com/mobingidocker/dockerimage-boilerplate).
 
-- code: /var/www/html
+- codeDir: /var/www/html (by default. you can change to /var/www/html/public by setting.)
 - DocumentRoot: /var/www/html/public
 
 
