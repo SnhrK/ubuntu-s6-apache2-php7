@@ -7,9 +7,11 @@ services:
     # image: ubuntu-apache2-php7:7.2
     volumes:
       - ../test/code:/var/www/html
+      - ../test/log:/var/log
   sutc:
     image: REPLACE_IMAGENAME
     # image: ubuntu-apache2-php7:7.2
     volumes:
       - ../test/code-with-composer:/var/www/html
       - ../test/code-with-composer/mobingi-init.sh:/tmp/init/init.sh
+      - ../test/log:/var/log
