@@ -3,8 +3,8 @@ version: '3'
 
 services:
   sut:
-    image: REPLACE_IMAGENAME
-    # image: ubuntu-apache2-php7:7.2
+    # image: REPLACE_IMAGENAME
+    image: ubuntu-apache2-php7:7.2
     ports:
       - 8080:80
     volumes:
