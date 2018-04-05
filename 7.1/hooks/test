@@ -1,7 +1,1 @@
-#!/bin/bash
-
-cd /src/$BUILD_CODE
-sed -e "s@REPLACE_IMAGENAME@$IMAGE_NAME@" ./7.2/docker-compose.test.yml -i
-docker-compose version
-docker-compose -f ./7.2/docker-compose.test.yml up -d
-docker-compose -f ./7.2/docker-compose.test.yml exec -T sut /dockerize -wait http://127.0.0.1/ -timeout 30s
+../../hooks/test
