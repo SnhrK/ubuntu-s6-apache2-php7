@@ -3,4 +3,5 @@ set -eo pipefail
 
 cd /src/$BUILD_CODE
 curl -sL https://github.com/jwilder/dockerize/releases/download/v0.6.1/dockerize-linux-amd64-v0.6.1.tar.gz | tar xvzf -
+chmod +x dockerize
 git clone https://github.com/mobingilabs/default-site-php -b dir_public test/code
