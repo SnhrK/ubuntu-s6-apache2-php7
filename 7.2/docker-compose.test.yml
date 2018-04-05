@@ -9,3 +9,10 @@ services:
       - 8080:80
     volumes:
       - ../test/code:/var/www/html
+  sutc:
+    image: REPLACE_IMAGENAME
+    # image: ubuntu-apache2-php7:7.2
+    ports:
+      - 8080:80
+    volumes:
+      - ../test/code-with-composer:/var/www/html
