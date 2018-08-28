@@ -24,6 +24,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 		php7.2-pspell \
 		php7.2-xml \
 		php7.2-xmlrpc \
+		php7.2-intl \
+		php7.2-bcmath \
 		php-apcu \
 		php-memcached \
 		php-pear \
